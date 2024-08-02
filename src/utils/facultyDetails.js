@@ -1,0 +1,93 @@
+export const facultyDetails = [
+    {
+        name: "Dr. Laura Williams",
+        position: "Associate Professor",
+        department: "Guitar Studies",
+        researchInterests: ["Classical Guitar", "Fingerstyle Techniques"],
+        email: "laura.williams@example.com",
+        office: "Room 303",
+        phoneNumber: "+1 (345) 678-9012",
+        address: "789 Oak St, City, Country",
+        imageUrl: "https://images.pexels.com/photos/709188/pexels-photo-709188.jpeg?auto=compress&cs=tinysrgb&w=600",
+        yearsOfExperience: 14,
+        about: "Dr. Laura Williams is an Associate Professor in the Guitar Studies department. Her research interests include Classical Guitar and Fingerstyle Techniques. With 14 years of experience, she has conducted extensive studies on guitar playing techniques and performance."
+    },
+    {
+        name: "Prof. Emma Johnson",
+        position: "Professor",
+        department: "Music History",
+        researchInterests: ["Baroque Music", "20th Century Composers"],
+        email: "emma.johnson@example.com",
+        office: "Room 404",
+        phoneNumber: "+1 (456) 789-0123",
+        address: "101 Pine St, City, Country",
+        imageUrl: "https://plus.unsplash.com/premium_photo-1675626492183-865d6d8e2e8a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        yearsOfExperience: 20,
+        about: "Prof. Emma Johnson is a Professor in the Music History department. Her research focuses on Baroque Music and 20th Century Composers. With 20 years of experience, she has authored several publications analyzing historical music trends."
+    },
+    {
+        name: "Dr. William Clark",
+        position: "Assistant Professor",
+        department: "Vocal Performance",
+        researchInterests: ["Voice Training", "Opera"],
+        email: "william.clark@example.com",
+        office: "Room 505",
+        phoneNumber: "+1 (567) 890-1234",
+        address: "202 Cedar St, City, Country",
+        imageUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        yearsOfExperience: 9,
+        about: "Dr. William Clark is an Assistant Professor in the Vocal Performance department. His research interests include Voice Training and Opera. With 9 years of experience, he is dedicated to helping students improve their vocal techniques and performance skills."
+    },
+    {
+        name: "Prof. Sophia Martinez",
+        position: "Professor",
+        department: "Music Composition",
+        researchInterests: ["Orchestration", "Electronic Music"],
+        email: "sophia.martinez@example.com",
+        office: "Room 606",
+        phoneNumber: "+1 (678) 901-2345",
+        address: "303 Maple St, City, Country",
+        imageUrl: "https://images.pexels.com/photos/4498933/pexels-photo-4498933.jpeg?auto=compress&cs=tinysrgb&w=600",
+        yearsOfExperience: 18,
+        about: "Prof. Sophia Martinez is a Professor in the Music Composition department. Her research interests include Orchestration and Electronic Music. With 18 years of experience, she has mentored aspiring composers and contributed to the development of new music compositions."
+    },
+    {
+        name: "Dr. Michael Roberts",
+        position: "Professor",
+        department: "Music Education",
+        researchInterests: ["Pedagogy", "Curriculum Development"],
+        email: "michael.roberts@example.com",
+        office: "Room 707",
+        phoneNumber: "+1 (789) 012-3456",
+        address: "404 Walnut St, City, Country",
+        imageUrl: "https://images.pexels.com/photos/3394658/pexels-photo-3394658.jpeg?auto=compress&cs=tinysrgb&w=600",
+        yearsOfExperience: 15,
+        about: "Dr. Michael Roberts is a Professor in the Music Education department. His research interests include Pedagogy and Curriculum Development. With 15 years of experience, he has developed innovative teaching methods for music education."
+    },
+    {
+        name: "Prof. Elizabeth Turner",
+        position: "Professor",
+        department: "Music Theory",
+        researchInterests: ["Harmony", "Counterpoint"],
+        email: "elizabeth.turner@example.com",
+        office: "Room 808",
+        phoneNumber: "+1 (890) 123-4567",
+        address: "505 Pine St, City, Country",
+        imageUrl: "https://images.unsplash.com/photo-1484863137850-59afcfe05386?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        yearsOfExperience: 22,
+        about: "Prof. Elizabeth Turner is a Professor in the Music Theory department. Her research interests include Harmony and Counterpoint. With 22 years of experience, she has contributed significantly to the understanding of music theory and its application."
+    },
+    {
+        name: "Dr. Benjamin White",
+        position: "Assistant Professor",
+        department: "Ethnomusicology",
+        researchInterests: ["World Music", "Music and Culture"],
+        email: "benjamin.white@example.com",
+        office: "Room 909",
+        phoneNumber: "+1 (901) 234-5678",
+        address: "606 Elm St, City, Country",
+        imageUrl: "https://images.pexels.com/photos/324030/pexels-photo-324030.jpeg?auto=compress&cs=tinysrgb&w=600",
+        yearsOfExperience: 10,
+        about: "Dr. Benjamin White is an Assistant Professor in the Ethnomusicology department. His research interests include World Music and Music and Culture. With 10 years of experience, he has conducted studies on the role of music in different cultural contexts."
+    }
+]
