@@ -56,7 +56,7 @@ function About() {
                     </div>
                     <div className='w-full md:max-w-[500px] lg:min-w-[600px] xl:min-w-[800px] flex items-end'>
                         <motion.div
-                            initial={{ x: 100, opacity: 0 }}
+                            initial={{ x: -100, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, ease: 'easeInOut' }}
                             viewport={{ once: true }}
