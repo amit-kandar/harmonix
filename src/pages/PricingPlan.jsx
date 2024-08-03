@@ -21,7 +21,7 @@ function PricingPlan() {
                         {
                             pricingPlans.map((item, index) => (
                                 <motion.div
-                                    initial={{ x: 200, opacity: 0 }}
+                                    initial={{ x: -200, opacity: 0 }}
                                     whileInView={{ x: 0, opacity: 1 }}
                                     transition={{ duration: 1, ease: 'easeInOut', delay: index * 0.5 }}
                                     viewport={{ once: true }}
