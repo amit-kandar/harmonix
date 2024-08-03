@@ -52,13 +52,12 @@ function LazyVideo({ src, type, poster }) {
 function Home() {
     const videoSrc = BG_VIDEO;
     const videoType = "video/mp4";
-    const posterSrc = "path/to/poster.jpg";
 
     return (
         <Suspense fallback={null}>
             <section className='relative min-h-screen flex p-5 md:p-10'>
                 <div className="absolute inset-0 w-full h-full">
-                    <LazyVideo src={videoSrc} type={videoType} poster={posterSrc} />
+                    <LazyVideo src={videoSrc} type={videoType} />
                     <div className="absolute inset-0 bg-black opacity-50"></div>
                 </div>
                 <div className='max-w-5xl h-full z-10 flex flex-col justify-center items-start px-3 sm:px-5 mt-32 md:mt-36'>
